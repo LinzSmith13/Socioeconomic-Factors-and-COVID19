@@ -16,9 +16,9 @@ The target variable (deaths per 100k) exhibited a severe right skew. Because thi
 Initial correlation mapping revealed weak linear relationships between individual features and mortality. However, it highlighted significant multicollinearity among the socioeconomic variables (such as poverty rates and minority populations), confirming that a simple linear regression would be insufficient, and a Random Forest model was the appropriate choice.
 
 ## Model Performance & Results
-R-squared: 0.0221
-RMSE: 1.2212 deaths per 100k
-*While an R-squared of ~0.02 is objectively low, it is expected given the zero-inflated nature of early-pandemic data. Because the virus was not yet ubiquitous across the country, socioeconomic factors alone could not explain the total variance in death rates—geographical introduction of the virus was the dominant, unmeasured factor.
+- R-squared: 0.0221
+- RMSE: 1.2212 deaths per 100k
+_While an R-squared of ~0.02 is objectively low, it is expected given the zero-inflated nature of early-pandemic data. Because the virus was not yet ubiquitous across the country, socioeconomic factors alone could not explain the total variance in death rates—geographical introduction of the virus was the dominant, unmeasured factor._
 
 ## Key Findings, Feature Importance
 The model successfully isolated the strongest socioeconomic signals where the virus did take hold:
